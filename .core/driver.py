@@ -4,7 +4,7 @@ import os
 
 def test_student_code(solution_path):
     # Ensure the directory exists
-    report_dir = os.path.join(os.path.dirname(__file__), "..", "student_workspace")
+    report_dir = os.path.join(os.path.dirname(__file__), "..", "workspace")
     os.makedirs(report_dir, exist_ok=True)
 
     report_path = os.path.join(report_dir, "report.txt")
