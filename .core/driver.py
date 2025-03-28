@@ -67,5 +67,5 @@ def test_student_code(solution_path):
 
 # Automatically run when this script is executed directly
 if __name__ == "__main__":
-    solution_file = os.path.join(os.path.dirname(__file__), "..", "student_workspace", "solution.py")
+    solution_file = os.path.join(os.path.dirname(__file__), "..", "workspace", "solution.py")
     test_student_code(solution_file)
