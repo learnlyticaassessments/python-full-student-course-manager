@@ -7,7 +7,7 @@
 import importlib.util
 import os
 
-driver_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "secret_tests", "driver.py"))
+driver_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".core", "driver.py"))
 solution_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "solution.py"))  # Corrected path
 spec = importlib.util.spec_from_file_location("driver", driver_path)
 driver_module = importlib.util.module_from_spec(spec)
