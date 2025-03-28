@@ -111,8 +111,6 @@ Run on 2025-03-28 14:42:01
 Once you're ready:
 - Save all changes
 - Run tests to ensure `report.txt` is up to date
-- Use the Learnlytica extension to **Submit Assignment**
-
 ---
 
 🎉 Good luck from Team Learnlytica!
